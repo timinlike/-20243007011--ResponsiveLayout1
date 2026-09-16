@@ -20,6 +20,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="spread"
         app:layout_constraintVertical_weight="1" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cardContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/card_bg"
+        app:layout_constraintBottom_toTopOf="@id/tvAndroidApplication"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvLabTitle"
+        app:layout_constraintVertical_weight="3">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

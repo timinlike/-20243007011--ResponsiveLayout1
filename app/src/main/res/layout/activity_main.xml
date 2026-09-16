@@ -83,4 +83,13 @@
                 android:textSize="16sp" />
         </LinearLayout>
     </LinearLayout>
+    <TextView
+        android:id="@+id/tvAndroidApplication"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="Android Application"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
 </LinearLayout>
